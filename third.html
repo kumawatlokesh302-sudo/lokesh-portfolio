@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lokesh Portfolio</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+            color: white;
+        }
+
+        header {
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            color: #00ffd5;
+        }
+
+        nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #00ffd5;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h2 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            color: #ccc;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            padding: 12px 25px;
+            background: #00ffd5;
+            color: black;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            transform: scale(1.1);
+        }
+
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .services {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .service {
+            background: white;
+            color: black;
+            padding: 25px;
+            width: 260px;
+            border-radius: 15px;
+            transition: 0.3s;
+        }
+
+        .service:hover {
+            transform: translateY(-10px);
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: white;
+            color: black;
+            width: 260px;
+            padding: 20px;
+            border-radius: 15px;
+            transition: 0.4s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .contact {
+            background: rgba(0,0,0,0.3);
+            padding: 50px 20px;
+        }
+
+        .contact p {
+            margin: 10px 0;
+        }
+
+        footer {
+            background: black;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        footer p {
+            color: #aaa;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Lokesh</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>HTML & CSS Web Designer</h2>
+    <p>I create modern, clean and professional websites.</p>
+    <button class="btn">Hire Me</button>
+</section>
+
+<section>
+    <h2>My Services</h2>
+    <div class="services">
+        <div class="service">
+            <h3>Landing Page</h3>
+            <p>Clean and modern single-page websites.</p>
+        </div>
+
+        <div class="service">
+            <h3>Business Website</h3>
+            <p>Simple websites for shops and companies.</p>
+        </div>
+
+        <div class="service">
+            <h3>Portfolio Design</h3>
+            <p>Personal portfolio websites.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>My Projects</h2>
+    <div class="cards">
+
+        <div class="card">
+            <img src="https://picsum.photos/300/200?1">
+            <h3>Restaurant Website</h3>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/300/200?2">
+            <h3>Gym Website</h3>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/300/200?3">
+            <h3>Salon Website</h3>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/300/200?4">
+            <h3>Coaching Website</h3>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/300/200?5">
+            <h3>Portfolio Site</h3>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/300/200?6">
+            <h3>Product Landing Page</h3>
+        </div>
+
+    </div>
+</section>
+
+<section class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: lokeshkumaawat12122005@email.com</p>
+    <p>Fiverr: fiverr.com/LokeshKumawat01</p>
+    <button class="btn">Message Me</button>
+</section>
+
+<footer>
+    <h3>Lokesh Kumawat</h3>
+    <p>HTML & CSS Web Designer</p>
+    <p>© 2026 All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
